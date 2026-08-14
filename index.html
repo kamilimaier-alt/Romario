@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz do Romário</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz-container">
+
+        <section id="quiz-screen">
+
+            <header>
+                <h1>⚽ Quiz do Romário</h1>
+                <p>Teste seus conhecimentos sobre o Baixinho!</p>
+            </header>
+
+            <div class="info">
+                <span>Questão: <strong id="question-number">1</strong>/10</span>
+                <span>⭐ Pontos: <strong id="score">0</strong></span>
+            </div>
+
+            <div class="progress-container">
+                <div id="progress"></div>
+            </div>
+
+            <div class="question-box">
+                <h2 id="question">Carregando pergunta...</h2>
+            </div>
+
+            <div id="answers" class="answers"></div>
+
+            <button id="next-button" class="next-button">
+                Próxima ➜
+            </button>
+
+        </section>
+
+        <section id="result-screen" class="result-screen">
+
+            <div class="trophy">🏆</div>
+
+            <h1>Quiz terminado!</h1>
+
+            <p id="result-text"></p>
+
+            <h2>
+                Sua pontuação:
+                <span id="final-score">0</span>
+            </h2>
+
+            <p id="result-message"></p>
+
+            <button id="restart-button">
+                🔄 Jogar novamente
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
